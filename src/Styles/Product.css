@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+.Container {
+    float: left;
+    width: 70%;
+    height: auto;
+    margin: 20px 15%;
+}
+
+.Card {
+    width: 50%;
+    float: right;
+}
+
+.Card-carousel {
+    margin: 10px 10px 30px 20px;
+    float: left;
+    width: 46%;
+    height: 30rem;
+}
+
+.card-table, .card-prop {
+    float: right;
+    width: 50%;
+    margin: 0px 20px; 
+    text-align: center;
+}
+
+.card-prop{
+    margin: 14px 20px 0px 0px;
+}
+
+.Like {
+    float: right;
+    margin: 0px 20px;
+}
+
+.card-exp {
+    margin: 0px 20px 0px 0px;
+}
+
+.card-exp2 {
+    margin: 10px 20px 0px 0px;   
+}
+
+.Card-title {
+    font-family: source_sans_proregular,serif; 
+    font-size: 35px;
+}
+
+.card-info {
+    margin: 50px 20px 7px 0px;
+    font-size: 1.75rem;
+}
+
+.card-prop {
+    font-size: 1.75rem;
+}
+
+.Card-text {
+    margin: 50px 20px 20px 0px;
+    font-size: 20px;
+}
+
+.Cards-comment, .Card-products {
+    margin: 0px 0px 30px 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .Container {
+        width: 100%;
+        margin: 0px 15px;
+        text-align: center;
+    }
+
+    .Card{
+        width: 100%;
+        text-align: center;
+    }
+
+    .Card-carousel{
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .card-products {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card-table {
+        text-align: center;
+    }
+
+    .card-table, .card-prop {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 1090px){
+    .Card {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Card-carousel{
+        width: 95%;
+    }
+
+    .add-basket {
+        float: left;
+        margin: 0px 20px;
+    }
+
+    .Rating {
+        margin: 0px 40%;
+    }
+
+    .card-table, .card-prop {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+}
